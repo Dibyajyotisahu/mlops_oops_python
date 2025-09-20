@@ -1,7 +1,7 @@
 # initiate class
 class Employee:
     # constructor
-    def __init__(self):
+    def __init__(self,nd):
         print("starting employee details")
         self.id="123"
         self.salary="50000"
@@ -14,7 +14,7 @@ class Employee:
         print("employee is travelling to",destination)
 
 # create object
-emp=Employee()
+emp=Employee("dfg")
 
 #print attribute and call method
 print(emp.id)
