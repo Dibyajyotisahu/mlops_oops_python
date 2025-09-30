@@ -1,4 +1,4 @@
-lst=[1,2,3]
+"""lst=[1,2,3]
 my_str="mlops playulist"
 my_int=155
 
@@ -12,4 +12,8 @@ print(my_str.capitalize())
 
 a="x"
 b="y"
-print(a+b)
+print(a+b)"""
+
+from oops_proj  import chatbook
+user1 =chatbook()
+
